@@ -52,11 +52,87 @@ article {
     border-radius: 10px;
 }
 
+article img {
+    display: block;
+    margin: 0 auto;
+}
+
+.rivals article{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
 figure {
     text-align: center;
     margin-bottom: 15px;
 }
 
+figcaption {
+    color: #b11226;
+}
+
 img {
     border-radius: 8px;
+}
+
+meter {
+    width: 100%;
+    height: 20px;
+    margin: 10px 0;
+}
+
+details {
+    margin-top: 10px;
+    background-color: #16243b;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+table {
+    width: 100%;
+    margin-top: 10;
+    margin-bottom: 30px;
+    background-color: #1c2c4a
+}
+
+th, td {
+    border: 2px solid grey;
+    padding: 10px;
+    text-align: center;
+}
+
+footer {
+    background-color: #0b1526;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    font-size: 14px;
+}
+
+footer a {
+    color: #ff4d4d;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 32px;
+}
+
+.comic {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    margin-top: 20px;
+}
+
+p {
+    max-width: 750px;
+    margin: 15px auto;
+}
+
+h3 {
+    font-size: 22px;
+    margin-bottom: 15px;
+    margin-top: 10px;
 }
